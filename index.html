@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="js/js.js"></script>
 </head>
 <body>
-    <input type="text" placeholder="U" id="u" class="hello">
-    <input type="text" placeholder="R" id="r" class="hello">
-    <input type="text" placeholder="I" id="i" class="hello">
-    <button onclick="ohmsCalc()">Hello</button>
 
-    <div id="result"></div>
+<div class="wrapper">
+    <div class="form-container">
+        <div class="form-content">
+            <input type="text" placeholder="U" id="u" class="input">
+            <br/>
+            <input type="text" placeholder="R" id="r" class="input">
+            <br/>
+            <input type="text" placeholder="I" id="i" class="input">
+            <button onclick="ohmsCalc()" class="float-left">Hello</button>
+            <div id="result" class="float-left"></div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
