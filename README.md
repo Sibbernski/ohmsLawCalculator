@@ -1,2 +1,1 @@
-"# ohmsLawCalculator" 
-"# ohmsLawCalculator" 
+Simple Ohms law calculator.
