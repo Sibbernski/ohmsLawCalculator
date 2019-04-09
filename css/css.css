@@ -17,7 +17,7 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .form-container {
@@ -41,6 +41,26 @@ html, body {
 .input {
     width: 170px;
 }
+
 .float-left {
-    float:left;
+    float: left;
+}
+
+.btn {
+    width: 170px;
+    height: 25px;
+    background-color: #FF530D;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    margin-top:5px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s ease;
 }
